@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    border: solid orange 3px;
+}
+
+aside{
+    width: 20%;
+    background-color: grey;
+    float: right;
+    border: 2px solid #f00;
+    margin-left: 15px;
+}
+
+aside p {
+    font-family: helvetica;
+    font-size: small;
+    color: white;
+}
+
+aside h3 {
+    font-family: helvetica;
+    color: white;
+}
+
+section{
+    width: 75%;
+    float: left;
+    overflow: auto;
+    padding: 10px;
+    border: solid green 3px;
+    
+}
+
+article{
+    width: 45%;
+    height: 465px;
+    float: left;
+    overflow: auto;
+    border: solid blue 3px;
+}
+
+.thirdarticle{
+    clear: left;
+}
+
+
+footer{
+    width: 100%;
+    border: solid 6px none;
+}
+
+p{
+    font-family: monospace;
+}
+
+h1, h2, h3{
+    font-family: helvetica;
+}
+
+
+
+nav {
+width: 50%;
+border: 0px solid #009900;
+text-align: center;
+background: none;
+}
+
+nav ul {
+display:inline-flex; /*Comment:  this tells the browser to display the unordered list inline (side by side), but allow the list to retain it's block-level characteristics.*/
+margin: 0px;
+padding: 0px;
+padding-right: 1px;
+font-family: helvetica;
+font-size: 11px;
+
+}
+
+nav li {
+float: left;
+list-style-type: none;  /*Comment:  this tells the browser to remove the bullet points that would normally be displayed in an unordered list.*/
+}
+
+nav ul li a {
+color:black;
+text-decoration: none;  /*Comment:  this tells the browser to remove the underline that is normally displayed under a link.*/
+display: block;
+width: 100px;
+padding: 4px 0px;
+}
+
+nav a:hover {
+ background-color: red;
+ color: #fff;
+}
